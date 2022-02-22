@@ -1,0 +1,400 @@
+.pageComunica {
+  /* position: absolute; */
+  display: flex;
+  margin-top: 3rem;
+  
+  justify-content: center;
+  width: 100%;
+  height: 37rem;
+  overflow-x: scroll;
+
+}
+
+.titulo-page{
+margin-top: 1rem;
+}
+
+.tituloComunica{
+  margin-bottom: 4rem;
+  align-content: center;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  }
+
+.sub-titulo{
+  width: 100%;
+  height: 2rem;
+  /* background-color: #c4c4c4; */
+  justify-content: space-between;
+  justify-items: center;
+  margin-top: 6rem;
+  align-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+/*PRIMEIRO QUADRO*/
+
+
+.infoDistribuido1Fundo { 
+  position: absolute;
+  background-color: #c4c4c4;
+  width: 20rem;
+  height: 36.9rem;
+  border-radius: 1.129rem;
+  /* margin-left: 5.5rem;
+  margin-top: 1rem; */
+  z-index: 10;
+  margin-left: -57rem;
+  margin-top: -2.5rem;
+  margin-right: -5rem;
+}
+
+.formataFormDoador1 { /* Primeiro dados doador fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem; 
+  z-index: 80;  
+}
+
+.formataFormBenef1{ /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  /* /* margin : 1.5rem; */
+  margin-left: 19.5rem;
+  margin-top: 1.5rem; 
+  z-index: 80;
+  
+}
+
+/* ------------------------------------------ */
+
+
+/*SEGUNDO QUADRO*/
+
+
+.infoDistribuido2Fundo { 
+  position: absolute;
+  background-color: #C4C4C4;
+  width: 20rem;
+  height: 36.9rem;
+  border-radius: 1.129rem;
+  /* margin-left: 5.5rem;
+  margin-top: 1rem; */
+  z-index: 80;
+  margin-left: -52rem;
+  margin-top: -2.5rem;
+  
+}
+
+.formataFormDoador1 { /* Primeiro dados doador fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem; 
+  z-index: 80;  
+}
+
+.formataFormBenef1{ /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  /* /* margin : 1.5rem; */
+  margin-left: 19.5rem;
+  margin-top: 1.5rem; 
+  z-index: 80;
+  
+}
+
+/* ------------------------------------------ */
+
+/*TERCEIRO QUADRO*/
+
+
+.infoDistribuido3Fundo { 
+  position: absolute;
+  background-color: #C4C4C4;
+  width: 20rem;
+  height: 36.9rem;
+  border-radius: 1.129rem;
+  /* margin-left: 5.5rem;
+  margin-top: 1rem; */
+  z-index: 10;
+  margin-left: -10rem;
+  margin-top: -2.5rem;
+
+}
+
+.formataFormDoador1 { /* Primeiro dados doador fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem; 
+  z-index: 80;  
+}
+
+.formataFormBenef1{ /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  /* /* margin : 1.5rem; */
+  margin-left: 19.5rem;
+  margin-top: 1.5rem; 
+  z-index: 80;
+  
+}
+
+/* ------------------------------------------ */
+
+
+/*QUARTO QUADRO*/
+
+
+.infoDistribuido4Fundo { 
+  position: absolute;
+  background-color: #C4C4C4;
+  width: 20rem;
+  height: 36.9rem;
+  border-radius: 1.129rem;
+  /* margin-left: 5.5rem;
+  margin-top: 1rem; */
+  z-index: 10;
+  margin-left: 32rem;
+  margin-top: -2.5rem;
+
+}
+
+.formataFormDoador1 { /* Primeiro dados doador fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem; 
+  z-index: 80;  
+}
+
+.formataFormBenef1{ /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  /* /* margin : 1.5rem; */
+  margin-left: 19.5rem;
+  margin-top: 1.5rem; 
+  z-index: 80;
+  
+}
+
+/* ------------------------------------------ */
+
+/*QUINTO QUADRO*/
+
+
+.infoDistribuido5Fundo { 
+  position: absolute;
+  background-color: #C4C4C4;
+  width: 20rem;
+  height: 36.9rem;
+  border-radius: 1.129rem;
+  /* margin-left: 5.5rem;
+  margin-top: 1rem; */
+  z-index: 10;
+  margin-left: 74rem;
+  margin-top: -2.5rem;
+
+}
+
+.formataFormDoador1 { /* Primeiro dados doador fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem; 
+  z-index: 80;  
+}
+
+.formataFormBenef1{ /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  /* /* margin : 1.5rem; */
+  margin-left: 19.5rem;
+  margin-top: 1.5rem; 
+  z-index: 80;
+  
+}
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONFIGURAÇÕES GERAIS */
+
+
+.botoesAlteraStatusComunica {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33.75rem;
+}
+
+button.encerraProcesso{
+  width: 15.4rem;
+  height: 2rem;
+  border-radius: 0.326rem;
+  font-size: 0.94rem;
+}
+
+
+
+.botoesLinksAdm{
+    margin-bottom: 0.93rem;
+
+}
+
+.acessoDoacaoAdm,
+.acessoSolicitacaoAdm {
+  background-color: var(--cor-fundo-button-claro);
+  color: white;
+  border: none;
+  border-radius: 0.625rem;
+  width: 28rem;
+  height: 3rem;
+  cursor: pointer;
+  margin-right: 5rem;
+  font-size: 0.92rem;
+  font-weight: bold;
+}
+
+.acessoPortal:hover {
+  background: var(--cor-fundo-button-hover-claro);
+}
+
+.acessoDoacao:hover {
+  background: var(--cor-fundo-button-hover-claro);
+}
+
+.acessoSolicitacao:hover {
+  background: var(--cor-fundo-button-hover-claro);
+}
+
+
+
+/* CONFIGURAÇÕES DOS FORMULÁRIOS */
+
+
+.formularioInfosComunica { /*fundo do form */
+  /* background-color: pink; */
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+
+.formDadosComunica { /*campos do formulario */
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+

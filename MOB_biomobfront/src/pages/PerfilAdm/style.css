@@ -1,0 +1,238 @@
+.page {
+    position: absolute;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .bemVindoAdm {
+    position: absolute;
+    margin-left: 61rem;
+  }
+  
+  .perfilAdm {
+    display: flex;
+    margin-top: -0.6rem;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  
+  .infoPerfilAdm {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    margin-left: 5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .linkTrocaFotoAdm,
+  .sairAdm {
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.3rem;
+  }
+  
+  .trocaFotoAdm {
+    display: flex;
+    margin-top: -6rem;
+    justify-content: flex-end;
+    margin-right: -7rem;
+  }
+  
+  .fotoNullAdm {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .corpoEsquerdaAdm {
+    margin-right: 77.5rem;
+  
+  }
+  
+  /* Observar aqui como que vai ficar em outros monitores */
+  .linkPortalUser {
+    /* margin-top: -0.9rem; */
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+  }
+  
+  .acessoPortal {
+    background-color: var(--cor-fundo-button-claro);
+    color: white;
+    border: none;
+    border-radius: 0.625rem;
+    width: 22rem;
+    height: 3rem;
+    cursor: pointer;
+    font-size: 0.94rem;  
+  }
+  
+  .infoDoAdm {
+    position: absolute;
+    background-color: #c4c4c4;
+    width: 23.939rem;
+    height: 20.9rem;
+    border-radius: 1.129rem;
+    margin-left: 5.5rem;
+    margin-top: 4rem;
+  
+  }
+  
+  .formataFormAdm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formularioInfosDoAdm {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formDadosAdm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .botoesAlteraDadosAdm {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19.5rem;
+  }
+  
+  button.editarDadosAdm,
+  .salvarDadosEditados {
+    width: 21.794rem;
+    height: 2.5rem;
+    border-radius: 0.326rem;
+    font-size: 0.94rem;
+  }
+  
+  
+  /* Tabela de Pesquisa de Entidade começa abaixo*/
+  
+  .PesquisaEntidadesCadastradas{
+      position: absolute;
+      display: flex;
+      margin-top: 8.7rem;
+      justify-content: center;
+      width: 100%;
+      margin-left: 12rem;
+  }
+  
+  .pesquisaEnt{
+      position: absolute;
+      background-color: #c4c4c4;
+      width: 29.939rem;
+      height: 20.811rem;
+      border-radius: 1.129rem;
+      margin-right: 18rem;
+      z-index: 10;
+  
+      overflow-y: scroll;
+      text-align-last: start;
+      padding: 0.6rem 0.1rem;
+  
+  }
+  
+  .bodyEntAdm {
+      justify-content: space-between;
+    }
+    
+      
+    th{
+      padding: 0.2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      font-size: 1.2rem;
+      padding-bottom: 1rem;
+  
+    }
+  
+    td {
+      padding: 0.2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      font-size: 1.1rem;
+  
+    }
+  
+    tr.titulosTabelaAdm{
+      text-align: center;
+      padding-bottom: 1rem;
+      font-size: 2rem;
+    }
+  
+  
+  /* Painel Direito começa abaixo*/
+  
+  .corpoDireitaAdm {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    float: right;
+    margin-top: 9rem;
+    margin-left: 67rem;
+  }
+  
+  .botoesLinksAdm{
+      margin-bottom: 0.93rem;
+  
+  }
+  
+  .acessoBotAdm {
+    background-color: var(--cor-fundo-button-claro);
+    color: white;
+    border: none;
+    border-radius: 0.625rem;
+    width: 28rem;
+    height: 3rem;
+    cursor: pointer;
+    margin-right: 5rem;
+    font-size: 0.92rem;
+    font-weight: bold;
+  }
+  
+  .acessoPortal:hover {
+    background: var(--cor-fundo-button-hover-claro);
+  }
+  
+  .acessoDoacao:hover {
+    background: var(--cor-fundo-button-hover-claro);
+  }
+  
+  .acessoSolicitacao:hover {
+    background: var(--cor-fundo-button-hover-claro);
+  }
+  
+  /* .info2Perfil {
+    width: 18.7rem;
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    border: none;
+  }
+  
+  .info2Perfil textarea:focus,
+  input:focus,
+  select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  } */
+  

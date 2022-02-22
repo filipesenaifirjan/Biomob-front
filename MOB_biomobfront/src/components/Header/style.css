@@ -1,0 +1,22 @@
+
+header{
+    background-color: var(--cor-fundo-verde);
+    width: auto;
+    height: 7.5rem;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.menu-container{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.menu-imagem {
+    max-width: 30%;
+    width: auto;
+    height: 50%;
+}
+

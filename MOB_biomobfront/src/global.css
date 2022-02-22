@@ -1,0 +1,62 @@
+/* CSS RESETS */
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*Variaveis Globais*/
+body{
+    /* Cores */
+    --cor-fundo-verde:#36B497;
+    --cor-fundo-medio: #D9D9D9;
+    --cor-fundo-medio-alternativo: #D5DEE1;
+    --cor-fundo-claro: #F1F1F1;
+    --cor-fundo-principal: #ffffff;
+    --cor-fundo-button: #36B497;
+    --cor-fundo-button-hover: #315f54;
+    --cor-fundo-button-hover-claro: #36B497;
+    --cor-fundo-button-claro: #6BD0B8;
+    --cor-navegacao-superior: #36B497;
+    --cor-titulo: #545454;
+    --cor-texto-principal: #000000;
+    --cor-placeholder: #737373;
+    --cor-texto-medio: #A6A6A6;
+    --cor-texto-claro: #ffffff;
+    --cor-texto-alerta: #F60B0B;
+    --cor-texto-alerta-alternativo: #FF3B3B;
+    --cor-texto-atencao: #FF9900;
+    --cor-texto-sucesso: #57C849;
+    --cor-texto-sucesso-alternativo: #6CE679;
+
+    /* Fontes */
+    --tamanho-fonte-principal: 1rem;
+    --tamanho-fonte-titulo: 1.5rem;
+    --tamanho-fonte-cards: 1.125rem;
+    --tamanho-fonte-popups: 1.25rem;
+    --tamanho-fonte-forms: 1rem;
+    --tamanho-fonte-forms-auxiliar: 1rem;
+    --tamanho-fonte-button: 1rem;
+    --tamanho-fonte-link: 1.125rem;
+    --tamanho-font-navegacao: 1rem;
+    --tamanho-fonte-tabelas: 1.125rem;
+
+    /* Família de fontes */
+    --fonte-principal: "Roboto", sans-serif;
+    --fonte-alternativa: "Open Sans", sans-serif;
+
+    /* Estilos padrões globais */
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto-principal);
+    font-size: var(--tamanho-fonte-principal);
+}

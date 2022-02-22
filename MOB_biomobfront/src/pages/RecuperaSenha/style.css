@@ -1,0 +1,21 @@
+.titulo-recupera {
+    display: flex;
+    font-size: 1.89rem;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
+  }
+
+  .botReenviarSenha {
+    background-color: var(--cor-fundo-button);
+    color: white;
+    border: none;
+    border-radius: 0.625rem;
+    width: 17rem;
+    height: 3rem;
+    cursor: pointer;
+    margin-top: 3rem;
+  }

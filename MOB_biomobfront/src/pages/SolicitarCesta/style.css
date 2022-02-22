@@ -1,0 +1,69 @@
+.titulo{
+    position: absolute;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.seta-voltar{
+    position: absolute;
+    z-index: 80;
+}
+
+.titulo-solicitar-cesta{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.formataForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioSolicCesta{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSolicCesta1, .formSolicCesta2, .formSolicCesta3, .formSolicCesta4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SolicitaConfirma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 24.78rem;
+    flex-direction: row;
+}
+
+
+.teste{
+    width:200px;
+    height:100px;
+    background:#f00;
+    position:absolute;
+    z-index:100;
+    top:30%;
+    left:40;
+    }
+
+
+
+
+.infoBotaoDoa{
+    width: 24.8rem;
+    height: 2.198rem;
+    border-radius: 0.285rem;
+  }
+

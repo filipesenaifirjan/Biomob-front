@@ -1,0 +1,207 @@
+.bemVindoUser {
+  position: absolute;
+  margin-left: 61rem;
+  margin-top: -1rem;
+  
+}
+
+.perfilUser {
+  display: flex;
+  margin-top: -0.6rem;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.infoPerfilUser {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  margin-left: 15rem;
+  margin-bottom: 0.3rem;
+}
+
+.info2Perfil {
+  width: 18.7rem;
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  border: none;
+}
+
+.info2Perfil textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.linkTrocaFoto,
+.sair {
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.3rem;
+}
+
+.trocaFoto {
+  display: flex;
+  margin-top: -5rem;
+  justify-content: flex-end;
+  margin-right: -7rem;
+}
+
+.fotoNull {
+  width: 100px;
+  height: 100px;
+}
+
+.corpoEsquerda {
+  margin-left: 3.5rem;
+  margin-top: 5rem;
+}
+
+/* Observar aqui como que vai ficar em outros monitores */
+.linkPortalUser {
+  margin-bottom: 4rem;
+  margin-left: 6rem;
+}
+
+.infoDoBenef {
+  position: absolute;
+  background-color: #c4c4c4;
+  width: 23.939rem;
+  height: 26.811rem;
+  border-radius: 1.129rem;
+  margin-left: 4rem;
+  z-index: 10;
+}
+
+.formataFormUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formularioInfosDoBenef {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formDadosUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.botoesAlteraDados {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26rem;
+}
+
+button.editarDados,
+.salvarDadosEditados {
+  width: 21.794rem;
+  height: 1.919rem;
+  border-radius: 0.326rem;
+}
+
+.acessoUserPortal {
+  background-color: var(--cor-fundo-button-claro);
+  color: white;
+  border: none;
+  border-radius: 0.625rem;
+  width: 20rem;
+  height: 3rem;
+  cursor: pointer;
+  margin-top: -3rem;
+}
+
+.infoDoacoes {
+  position: absolute;
+  margin-top: 7.69rem;
+  margin-left: 12rem;
+}
+
+.bodyEnt {
+  justify-content: space-between;
+}
+
+.infoUserDoacaoAprovada {
+  overflow-y: scroll;
+  text-align-last: start;
+  background-color: gainsboro;
+  width: 29.8rem;
+  height: 12rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 1.169rem;
+  margin-left: 25.4rem;
+  margin-top: -7.7rem;
+}
+
+.infoUserSolicitacaoAprovada {
+  overflow-y: scroll;
+  text-align-last: start;
+  background-color: gainsboro;
+  width: 29.8rem;
+  height: 12rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 1.169rem;
+  margin-left: 25.4rem;
+  margin-top: 3.7rem;
+}
+
+th,
+td {
+  padding: 0.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Painel Direito começa abaixo*/
+
+.corpoDireita {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  float: right;
+  margin-top: 5rem;
+  margin-right: 11rem;
+}
+
+.acessoDoacao,
+.acessoSolicitacao {
+  background-color: var(--cor-fundo-button-claro);
+  color: white;
+  border: none;
+  border-radius: 0.625rem;
+  width: 28rem;
+  height: 3rem;
+  cursor: pointer;
+  margin-right: 5rem;
+}
+
+.acessoPortal:hover {
+  background: var(--cor-fundo-button-hover-claro);
+}
+
+.acessoDoacao:hover {
+  background: var(--cor-fundo-button-hover-claro);
+}
+
+.acessoSolicitacao:hover {
+  background: var(--cor-fundo-button-hover-claro);
+}

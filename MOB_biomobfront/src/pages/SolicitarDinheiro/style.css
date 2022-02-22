@@ -1,0 +1,137 @@
+.titulo{
+    position: absolute;
+    display: flex;
+    margin-top: 0.3rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.seta-voltar{
+    position: absolute;
+    z-index: 80;
+}
+
+.titulo-solicitar-dinheiro{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.formataForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioSolicDinheiro{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSolicDinheiro1, .formSolicDinheiro2, .formSolicDinheiro3, .formSolicDinheiro4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSolicDinheiro4 {
+    font-weight: bold;
+    position: absolute;
+    margin-top: 15rem;
+}
+
+.categoriasRecebimento{
+    position: absolute;
+    margin-top: 27.4rem;
+    margin-right: 53.2rem;
+
+}
+
+.recebePix, .recebeTransf, .recebeDeposito2{
+    background-color: #6BD0B8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.8rem;
+    height: 2.198rem;
+    border-radius: 0.285rem;
+    margin: 0.2rem;
+}
+
+.setaDinheiro{
+    position: absolute;
+    width: 0.8rem;
+    height: 1.198rem;
+    /* align-items: flex-end; */
+    margin-top: -1.9rem;
+    margin-left: 24.79rem;
+
+}
+
+.solicitaPix {
+    position: absolute;
+    margin-top: 19.9rem;
+    margin-right: 8.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.solicitaTransf {
+    position: absolute;
+    flex-direction: row;
+    margin-top: 24.5rem;
+    margin-right: -26.7rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.solicitaDeposito {
+    position: absolute;
+    flex-direction: row;
+    margin-top: 29.3rem;
+    margin-right: -26.7rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.SolicitaConfirmaDinheiro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 38.78rem;
+    flex-direction: row;
+}
+
+.botSolicitar{
+
+}
+
+.teste{
+    width:200px;
+    height:100px;
+    background:#f00;
+    position:absolute;
+    z-index:100;
+    top:30%;
+    left:40;
+    }
+
+
+
+
+.infoBotaoDoa{
+    width: 24.8rem;
+    height: 2.198rem;
+    border-radius: 0.285rem;
+  }
+

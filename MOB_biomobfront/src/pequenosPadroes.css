@@ -1,0 +1,66 @@
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+
+.setavoltar{
+    position: absolute;
+    margin-left: 3rem;    
+}
+
+.voltar{
+    position: absolute;
+    margin-top: 1.7rem;
+    margin-left: 1.5rem;
+    color: white;
+    height: 2.4rem;
+    width: 14rem;
+    z-index: 80;
+    font-size: 1rem;
+  }
+
+  .titulo-page{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  
+  .titulo{
+    align-content: center;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+
+  .acessoPortal {
+  background-color: var(--cor-fundo-button-claro);
+  color: white;
+  border: none;
+  border-radius: 0.625rem;
+  width: 22rem;
+  height: 3rem;
+  cursor: pointer;
+  font-size: 0.94rem;  
+}
+
+.botDoar{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24.8rem;
+  height: 3.198rem;
+  border-radius: 0.285rem;
+  font-size: 1rem;
+  margin-top: -0.8rem;
+}
+
+.botSolicitar{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24.8rem;
+  height: 3.198rem;
+  border-radius: 0.285rem;
+}

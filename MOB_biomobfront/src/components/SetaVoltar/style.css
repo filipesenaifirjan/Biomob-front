@@ -1,0 +1,13 @@
+.seta-voltar{
+    position: absolute;
+    margin-left: 3rem;
+}
+
+.voltar{
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    color: white;
+    height: 2.25rem;
+    width: 11.813rem;
+  }

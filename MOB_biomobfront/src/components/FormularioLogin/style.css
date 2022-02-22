@@ -1,0 +1,64 @@
+  .mensagem-validacao {
+    text-align: center;
+    font-size: var(--tamanho-fonte-forms-auxiliar);
+    font-weight: 500;
+    
+    color: var(--cor-texto-alerta);
+  }
+
+  .titulo-login {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: 3.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
+  }
+
+  .recupera{
+    font-size: 0.9rem;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .recupera a{
+    text-decoration: none;
+    color: #000;
+  }
+
+  .recupera a:visited{
+    color: #000;
+    text-decoration: none;
+  }
+
+  .recupera a:hover{
+    color: var(--cor-fundo-button-claro)
+  }
+
+  .recupera a:active{
+    color: var(--cor-fundo-button-claro)
+  }
+
+
+.voltar{
+  color: white;
+  height: 3rem;
+  width: 10rem;
+}
+
+button.botEntrarLogin {
+    background-color: var(--cor-fundo-verde);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 3.3rem;
+    cursor: pointer;
+    font-size:1rem;
+  }
+
+  button:hover {
+    background: var(--cor-fundo-button-claro)
+  }

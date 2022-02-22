@@ -1,0 +1,42 @@
+.tituloH{
+    position: absolute;
+    display: flex;
+    margin-top: 20rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.titulo-portal{
+    font-size: 2.5rem;
+}
+
+.acessibilidade {
+    position: fixed;
+    top: 25%;
+    left: 1%;
+    background-color: #fff;
+    border-radius: 1.175rem;
+    padding: 1rem 0.7rem 1rem;
+    text-align: center;
+    z-index: 99;
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+}
+
+.acessibilidade .fontsize-down, .acessibilidade .fontsize-reset, .acessibilidade .fontsize-up {
+    border-bottom: 1px
+ solid #e4e4e4;
+    padding-bottom: 1.3rem;
+    margin-bottom: 1.3rem;
+    font-size: 1em;
+    font-weight: 700;
+    color: #36b497;
+    line-height: 1;
+    user-select: none;
+}
+
+
+/* @media (max-width: 1400px)
+
+/* .acessibilidade {
+    left: 1%;
+} */ 

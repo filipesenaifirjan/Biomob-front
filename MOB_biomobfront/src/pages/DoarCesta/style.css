@@ -1,0 +1,164 @@
+.titulo{
+    position: absolute;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.seta-voltar{
+    position: absolute;
+    z-index: 80;
+}
+
+.titulo-doar-cesta{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.formataForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioDoarCesta{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formDoarCesta1, .formDoarCesta2, .formDoarCesta3, .formDoarCesta4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SolicitaConfirma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 24.78rem;
+    flex-direction: row;
+}
+
+
+.doaBotConfirmaCe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 3.6rem;
+    margin-left: 13rem;
+    flex-direction: row;
+}
+
+
+.teste{
+    width:200px;
+    height:100px;
+    background:#f00;
+    position:absolute;
+    z-index:100;
+    top:30%;
+    left:40;
+    }
+
+.infoBotaoDoa{
+    width: 24.8rem;
+    height: 2.198rem;
+    border-radius: 0.285rem;
+  }
+
+
+  /* UPLOAD de FOTO */
+
+  .uploadFoto4{
+    position: absolute;
+    display: flex;
+    position: absolute;
+    margin-top: 31rem;
+    margin-left: -52rem;
+
+}
+
+.allLable-file-ce{
+    margin-left: -19.7rem;
+}
+
+.avisoUploadCesta{
+    position: absolute;
+    margin-left: -9.5rem;
+    margin-top: -7.6rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    width: 24rem;
+}
+
+.lable-file-cesta{
+    position: absolute;
+    display: flex;
+    color: #fff;
+    background-color: #36B497;
+    width: 20.462rem;
+    height: 12.003rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 50%;
+    padding-top: 25%;
+    align-content: center;
+    margin-left: 8.92rem;
+    margin-top: -6rem;
+    
+    
+}
+
+
+.form-check-cesta{
+    position: absolute;
+    margin-top: 16.7rem;
+    margin-left: -4.64rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+
+.formRetirada{
+    position: absolute;
+    margin-top: 24.7rem;
+    margin-left: -8.99rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-check-retira{
+    position: absolute;
+    width: 13rem;
+    margin-top: 4.7rem;
+    margin-left: -6.79rem;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.formRetirada{
+    font-weight: bold;
+}
+
+
+input[type='file']{
+    display: none
+}
+

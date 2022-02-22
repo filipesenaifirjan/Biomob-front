@@ -1,0 +1,54 @@
+.titulo{
+    position: absolute;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.seta-voltar{
+    position: absolute;
+    z-index: 80;
+}
+
+.titulo-solicitar-dinheiro{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.formataForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioSolicOutros{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSolicOutros1, .formSolicOutros2, .formSolicOutros3, .formSolicOutros4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.SolicitaConfirma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 24.78rem;
+    flex-direction: row;
+}
+
+.botSolicitar{
+
+}
+

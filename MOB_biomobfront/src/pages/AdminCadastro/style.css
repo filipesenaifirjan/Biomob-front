@@ -1,0 +1,69 @@
+.titulo-pageConta{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.seta-voltar{
+    position: absolute;
+    margin-left: 3rem;
+}
+
+.voltar{
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    color: white;
+    height: 2.25rem;
+    width: 11.813rem;
+  }
+
+  .tituloConta{
+    align-content: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.formataForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioCadastro{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formCadastro1, .formCadastro2, .formCadastro3, .formCadastro4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.confirmaCadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 20rem;
+    flex-direction: row;
+}
+
+.botCadastraAdm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14.8rem;
+    height: 3.3rem;
+    margin-top: 3rem;
+    border-radius: 0.285rem;
+}
+

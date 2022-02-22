@@ -1,0 +1,276 @@
+.page {
+  position: absolute;
+  display: flex;
+  margin-top: 4rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.titulo-page{
+margin-top: 1rem;
+}
+
+.sub-titulo{
+  width: 100%;
+  height: 2rem;
+  /* background-color: #c4c4c4; */
+  justify-content: space-between;
+  justify-items: center;
+  margin-top: 6rem;
+  align-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+.st1{
+  margin-right: 49rem;
+}
+
+/* 
+.corpoEsquerdaValida {
+  margin-left: -100.5rem;
+
+} */
+
+/* Observar aqui como que vai ficar em outros monitores */
+.linkPortalUser {
+  /* margin-top: -0.9rem; */
+  margin-bottom: 1rem;
+  margin-left: 6rem;
+}
+
+
+
+.infoDoacoesFundo {
+  position: absolute;
+  background-color: #c4c4c4;
+  width: 55.3rem;
+  height: 36.9rem;
+  border-radius: 1.129rem;
+  /* margin-left: 5.5rem;
+  margin-top: 1rem; */
+  z-index: 10;
+  margin-left: -57rem;
+  margin-top: -2.5rem;
+  overflow-x: scroll;
+}
+
+
+
+.formataFormValida { /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  margin : 1.5rem
+  
+}
+
+.formataFormValida2 { /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  margin : 1.5rem;
+  margin-left: 37rem;
+  
+}
+
+.formataFormValida3 { /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  margin : 1.5rem;
+  margin-left: 37rem;
+  
+}
+
+.formularioInfosValida { /*fundo do form */
+  /* background-color: pink; */
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+
+.formDadosValida { /*campos do formulario */
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.botoesAlteraStatusValida {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33.75rem;
+}
+
+button.statusAprova,
+.statusReprova {
+  width: 9.794rem;
+  height: 2rem;
+  border-radius: 0.326rem;
+  font-size: 0.94rem;
+}
+
+
+
+/* .corpoDireitaValida {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  float: right;
+  margin-top: -0.5rem;
+  margin-left: 67rem;
+} */
+
+.botoesLinksAdm{
+    margin-bottom: 0.93rem;
+
+}
+
+.acessoDoacaoAdm,
+.acessoSolicitacaoAdm {
+  background-color: var(--cor-fundo-button-claro);
+  color: white;
+  border: none;
+  border-radius: 0.625rem;
+  width: 28rem;
+  height: 3rem;
+  cursor: pointer;
+  margin-right: 5rem;
+  font-size: 0.92rem;
+  font-weight: bold;
+}
+
+.acessoPortal:hover {
+  background: var(--cor-fundo-button-hover-claro);
+}
+
+.acessoDoacao:hover {
+  background: var(--cor-fundo-button-hover-claro);
+}
+
+.acessoSolicitacao:hover {
+  background: var(--cor-fundo-button-hover-claro);
+}
+
+
+
+/* SOLICITAÇÕES */
+
+.infoSolicitacoesFundo {
+  position: absolute;
+  background-color: #c4c4c4;
+  width: 55.3rem;
+  height: 36.9rem;
+  border-radius: 1.129rem;
+  /* margin-left: 5.5rem;
+  margin-top: 1rem; */
+  z-index: 10;
+  margin-right: -54rem;
+  margin-top: -2.5rem;
+  overflow-x: scroll;
+}
+
+
+.formataFormValidaSolic { /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  margin : 1.5rem;
+  margin-right: 37rem;
+  
+}
+
+.formataFormValidaSolic2 { /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  /* /* margin : 1.5rem; */
+  margin-left: 19.3rem;
+  margin-top: -1rem; 
+  z-index: 80;
+  
+}
+
+.formataFormValidaSolic3 { /*fundo onde fica o form */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 16.939rem;
+  height: 27.9rem;
+  border-radius: 1.129rem;
+  margin-top: -1rem; 
+  margin-left: 91rem;
+  z-index: 80;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* .info2Perfil {
+  width: 18.7rem;
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  border: none;
+}
+
+.info2Perfil textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} */

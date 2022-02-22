@@ -1,0 +1,19 @@
+{
+    "nomeEntidade": "Leandro de Almeida Camargo",
+    "cpfUsuario": "08428331707",
+    "cnpjUsuario": null,
+    "celular": "988161694",
+    "email": "leandro.alca01@gmail.com",
+    "senha": "123456",
+    "endereco": {
+      "cep": "25630250",
+      "logradouro": "Rua Saint Moritz",
+      "bairro": "Morin",
+      "complemento": "casa",
+      "uf": "RJ",
+      "numero": 141,
+      "idEndereco": 5,
+      "cidade": "Petrópolis"
+    },
+    "idUsuario": 5
+  }

@@ -1,0 +1,45 @@
+.titulo-page{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.setavoltar{
+    position: absolute;
+    margin-left: 3rem;
+}
+
+.voltar{
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    color: white;
+    height: 2.25rem;
+    width: 11.813rem;
+  }
+
+
+.titulo1{
+    align-content: center;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+}
+
+.categoria-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.botaoDoar{
+    background-color: var(--cor-fundo-verde);
+    color: white;
+    border: none;
+    border-radius: 0.625rem;
+    width: 20rem;
+    height: 3rem;
+    cursor: pointer;
+}
